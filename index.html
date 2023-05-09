@@ -15,9 +15,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
+  <!-- header start -->
     <section id="home">
        <header class="header-wrapper">
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #111111;">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="img/logo-light.png" alt="logo" class="img-responsive justify-content-center">
@@ -37,13 +38,13 @@
                     <a class="nav-link" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#Whati do">What I Do</a>
+                    <a class="nav-link" href="#service">What I Do</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#resume">Resume</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#Portfolio">Portfolio</a>
+                    <a class="nav-link" href="#my_portfolio">Portfolio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
@@ -74,9 +75,11 @@
             <button class="main-btn">Hire Me</button>
         </div>
     </header>
-</section>
+    </section>
+  <!-- header end -->
 
-        <section id="#about"style="background-color:#212529;height: 700px;">
+  <!-- about start -->
+        <section id="about"style="background-color:#212529;height: 700px;">
         <div class="container">
             <div class="row">
                 <h1 class="about_me">ABOUT ME</h1>
@@ -113,11 +116,13 @@
                     <label>Form : Karachi</label>
                 </li>
             </ul>
-                <a href=""><button class="main-btn" style="background-color: #20C997; color: white;">Download CV</button></a>
+                <a href="roof-repairslate-roofing.docx"><button class="main-btn" style="background-color: #20C997; color: white;">Download CV</button></a>
             </div>
         </div>
         </section>
+  <!-- about end -->
 
+  <!-- sevice start -->
         <section id="service" class="service_wrapper">
             <div class="container">
                 <div class="row">
@@ -130,7 +135,7 @@
                 <div class="row">
                     <div class="col-lg-11">
                         <div class="row">
-                            <div class="col-md-6" style="padding-top: 7%;">
+                            <div class="col-md-6" style="padding-top: 7%;"  data-aos="fade-down-right">
                                 <div class="row">
                                     <div class="col-md-2">
                                         <i class="fa-solid fa-palette icon1"></i>
@@ -178,7 +183,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-md-6" style="padding-top: 7%; float: left;">
+                                <div class="col-md-6" style="padding-top: 7%; float: left;" data-aos="fade-up">
                                     <div class="row">
                                         <div class="col-md-2">
                                             <i class="fa-solid fa-chart-area icon1"></i>
@@ -206,7 +211,9 @@
                 </div>
             </div>
         </section>
+<!-- sevice end -->
 
+<!-- remuse start -->
         <section id="resume" class="summary_section">
             <div class="container">
                 <div class="row">
@@ -227,7 +234,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6"  style="text-align: left; margin-top: 10%;">
+                    <div class="col-md-6"  style="text-align: left; margin-top: 10%;" data-aos="fade-up">
                         <div class="bg-white  rounded p-4 mb-4 bg-dark" class="resume"style="background-color: #111418!important;">
                             <h3 class="Computer">Inter</h3>
                             <p style="color: #20C997; font-size: 20px;">Collage</p>
@@ -260,7 +267,7 @@
                 <div class="col-md-6">
                     <p class=" fw-500 text-start mb-2 text-light">HTML/CSS 
                         <span class="float-end ">95%</span></p>
-                        <div class="progress progress-sm mb-4 bg-dark" style=" height: 7px; background-color: black !important;"">
+                        <div class="progress progress-sm mb-4 bg-dark" style=" height: 7px; background-color: black !important;">
                             <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%; background-color: #20C997 ;">
                             </div>
                         </div>
@@ -291,11 +298,15 @@
                                         <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 50%; background-color: #20C997 ;">
                                         </div>
                                     </div>
+
+                                    <a href="roof-repairslate-roofing.docx"><button class="main-btn" style="color: #6c757d; border-color: #6c757d;">Download</button></a>
                                 </div>
                         </div>
             </div>
         </section>
+<!-- remuse end -->
 
+<!-- portfolio Start -->
         <section id="my_portfolio">
             <div class="container">
                 <div class="row">
@@ -309,7 +320,7 @@
                 <div class="container">
 
                       <div>
-                        <h2 style="padding-top: 7%; color: white;">QUALITY WORK <br> RECENTLY DNE PROJECT</h2>
+                        <h2 style="padding-top: 7%; color: white;" class="heading">QUALITY WORK <br> RECENTLY DNE PROJECT</h2>
                       </div>
             
                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -328,77 +339,73 @@
                         <div class="row">
             
                           
-                          <div class="col-lg-4 col-md-6">
+                          <div class="col-lg-4 col-md-6"data-toggle="modal" data-target=".bd-example-modal-lg">
                             <div class="portfolio-image">
-                              <img src="img/portfolio/portfolio1.webp" alt="" class="img-responsive">
-                              <div class="overlay"><a href="https://hf123.000webhostapp.com/" target="_blank"> <i class="fas fa-plus plus1"></i> </a></div>
+                              <img src="img/project-1.jpg" alt="" class="img-responsive" width="405px" height="300px">
+                              <div class="overlay"></div>
                             </div>
-                            <h5 class="mb-0 mt-3">
-                              MINIMAL DESIGNER</h5>
-                              <p>Animated, Portfolio</p>
+                            <h5 class="mb-0 mt-3" style="color: white;">
+                              Project Title 1</h5>
+                              <p>Category</p>
                           </div>
                           
-                          <div class="col-lg-4 col-md-6">
+                          <div class="col-lg-4 col-md-6"data-toggle="modal" data-target=".bd-example-modal-lg1">
                             <div class="portfolio-image">
-                              <img src="img/portfolio/portfolio2.webp" alt="" class="img-responsive">
-                              <div class="overlay"> <a href="https://centrobaric-mules.000webhostapp.com/" target="_blank"><i class="fas fa-plus plus1"></i></div></a>
+                              <img src="img/project-4.jpg" alt="" class="img-responsive" width="405px" height="550px">
+                              <div class="overlay"></div></a>
                             </div>
-                            <h5 class="mb-0 mt-3">
-                              MINIMAL DESIGNER</h5>
-                              <p>Animated, Portfolio</p>
+                            <h5 class="mb-0 mt-3" style="color: white;">
+                              Project Title 2</h5>
+                              <p>Category</p>
                           </div>
                 
-                          <div class="col-lg-4 col-md-6">
+                          <div class="col-lg-4 col-md-6"data-toggle="modal" data-target=".bd-example-modal-lg2">
                             <div class="portfolio-image">
-                              <img src="img/portfolio/portfolio3.webp" alt="" class="img-responsive">
-                              <div class="overlay"> <a href="https://erogenous-stools.000webhostapp.com/" target="_blank"><i class="fas fa-plus plus1"></i></div></a>
+                              <img src="img/project-3.jpg" alt="" class="img-responsive" width="400px" height="250px">
+                              <div class="overlay"></div>
                             </div>
-                            <h5 class="mb-0 mt-3">
-                              MINIMAL DESIGNER</h5>
-                              <p>Animated, Portfolio</p>
+                            <h5 class="mb-0 mt-3" style="color: white;">
+                              Project Title 3</h5>
+                              <p>Category</p>
                           </div>
                 
                         </div>
                       </div>
                       <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-two-tab">
                         <div class="row">
-                          <div class="col-lg-4 col-md-6">
+                          <div class="col-lg-4 col-md-6"data-toggle="modal" data-target=".bd-example-modal-lg3">
                             <div class="portfolio-image">
-                              <img src="img/portfolio/portfolio4.webp" alt="" class="img-responsive">
-                              <div class="overlay"> <a href="https://stratiform-semicond.000webhostapp.com/" target="_blank" ><i class="fas fa-plus plus1"></i></div></a>
+                              <img src="img/project-7.jpg" alt="" class="img-responsive" width="400px" height="500px">
+                              <div class="overlay"></div>
                             </div>
-                            <h5 class="mb-0 mt-3">
-                              MINIMAL DESIGNER</h5>
-                              <p>Animated, Portfolio</p>
+                            <h5 class="mb-0 mt-3" style="color: white;">
+                              Project Title 4</h5>
+                              <p>Category</p>
                           </div>
                 
-                          <div class="col-lg-4 col-md-6">
+                          <div class="col-lg-4 col-md-6"data-toggle="modal" data-target=".bd-example-modal-lg4">
                             <div class="portfolio-image">
-                              <img src="img/portfolio/portfolio5.webp" alt="" class="img-responsive">
-                              <div class="overlay"> <a href="https://whinier-desires.000webhostapp.com/" target="_blank"><i class="fas fa-plus plus1"></i></div></a>
+                              <img src="img/project-5.jpg" alt="" class="img-responsive" width="400px" height="400px">
+                              <div class="overlay"></div>
                             </div>
-                            <h5 class="mb-0 mt-3">
-                              MINIMAL DESIGNER</h5>
-                              <p>Animated, Portfolio</p>
+                            <h5 class="mb-0 mt-3" style="color: white;">
+                              Project Title 5</h5>
+                              <p>Category</p>
                             </div>
             
             
-                            <div class="col-lg-4 col-md-6">
+                            <div class="col-lg-4 col-md-6"data-toggle="modal" data-target=".bd-example-modal-lg5">
                               <div class="portfolio-image">
-                                <img src="img/portfolio/portfolio6.webp" alt="" class="img-responsive">
-                                <div class="overlay"> <a href="https://sedentary-jaw.000webhostapp.com/" target="_blank"><i class="fas fa-plus plus1"></i></div></a>
+                                <img src="img/portfolio/portfolio6.webp" alt="" class="img-responsive" width="400">
+                                <div class="overlay"></div>
                               </div>
                               <h5 class="mb-0 mt-3">
-                                MINIMAL DESIGNER</h5>
-                                <p>Animated, Portfolio</p>
+                                Project Title 6</h5>
+                                <p>Category</p>
                               </div>
-            
-            
-            
                           </div>
-            
                       </div>
-            
+
                           <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-three-tab">
                             <div class="row">
                               <div class="col-lg-4 col-md-6">
@@ -433,8 +440,249 @@
                             </div>
                         </div>
             
-        </section>
+                        <!-- Large modal -->
+                          <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl" style=" color: white;">
+                              <div class="modal-content" style="color: white; background-color: #343a40!important;">
+                                <h4 style="padding-top: 2%">Project 1</h4>
+                            <div class="row">
+                                  <div class="col-md-6" style="padding: 4%;">
+                                    <a href="https://hf123.000webhostapp.com/" target="_blank"><img src="img/project-1.jpg" class="my-img" alt="" width="550px" height="350px"></a>
+                                  </div>
+                                  
+                                  <div class="col-md-5" style="padding-top: 3%; text-align: left;margin-left: 3%;">
+                                    <h6>Project Info:</h6>
+                                    <p>Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+                                    <h6>Project Details:</h6>
+                                    <ul class="detail my-li" style="margin-left: 3% !important;">
+                                      <li style="color: white;margin-left: -10%;">
+                                          <label>Technologies : iOS, HTML5, CSS3, PHP, Java</label>
+                                      </li>
+                      
+                                      <li style="color: white;margin-left: -10%;">
+                                          <label>Industry : Art & Design</span></label>
+                                      </li>
+                      
+                                      <li style="color: white;margin-left: -10%;">
+                                          <label>Date : July 16, 2019</label>
+                                      </li>
+                                      <h2 style="color: white; font-size: 15px; padding-top: 20px;">Share : </h2>
+                                      <span><i class="fab fa-dribbble icon" style="color: #20C997;"></i></span>
+                                      <span><i class="fab fa-twitter icon" style="color: #20C997;"></i></span>
+                                      <span><i class="fab fa-facebook-f icon" style="color: #20C997;"></i></span>
+                                      <span><i class="fab fa-google icon" style="color: #20C997;"></i></span>
+                                      <span><i class="fab fa-github icon" style="color: #20C997;"></i></span>
+                                      
+                                  </ul>
+                                  </div>
+                              </div>
+                            </div>
+                            </div>
+                          </div>
 
+                        <!-- modal 2 -->
+                          <div class="modal fade bd-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl" style=" color: white;">
+                              <div class="modal-content" style="color: white; background-color: #343a40!important;">
+                                <h4 style="padding-top: 2%">Project 2</h4>
+                            <div class="row">
+                                  <div class="col-md-6" style="padding: 4%;">
+                                    <a href="https://centrobaric-mules.000webhostapp.com/" target="_blank"><img src="img/project-4.jpg" alt="" class="my-img"  width="470px" height="550px"></a>
+                                  </div>
+                                  
+                                  <div class="col-md-5" style="padding-top: 3%; text-align: left;margin-left: 3%;">
+                                    <h6>Project Info:</h6>
+                                    <p>Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+                                    <h6>Project Details:</h6>
+                                    <ul class="detail my-li" style="margin-left: 3% !important;">
+                                      <li style="color: white;margin-left: -10%;">
+                                          <label>Technologies : iOS, HTML5, CSS3, PHP, Java</label>
+                                      </li>
+                      
+                                      <li style="color: white;margin-left: -10%;">
+                                          <label>Industry : Art & Design</span></label>
+                                      </li>
+                      
+                                      <li style="color: white;margin-left: -10%;">
+                                          <label>Date : July 16, 2019</label>
+                                      </li>
+                                      <h2 style="color: white; font-size: 15px; padding-top: 20px;">Share : </h2>
+                                      <span><i class="fab fa-dribbble icon" style="color: #20C997;"></i></span>
+                                      <span><i class="fab fa-twitter icon" style="color: #20C997;"></i></span>
+                                      <span><i class="fab fa-facebook-f icon" style="color: #20C997;"></i></span>
+                                      <span><i class="fab fa-google icon" style="color: #20C997;"></i></span>
+                                      <span><i class="fab fa-github icon" style="color: #20C997;"></i></span>
+                                      
+                                  </ul>
+                                  </div>
+                              </div>
+                            </div>
+                            </div>
+                          </div>
+
+                          <!-- modal 3 -->
+                          <div class="modal fade bd-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl" style=" color: white;">
+                              <div class="modal-content" style="color: white; background-color: #343a40!important;">
+                                <h4 style="padding-top: 2%">Project 3</h4>
+                            <div class="row">
+                                  <div class="col-md-6" style="padding: 4%;">
+                                    <a href="https://erogenous-stools.000webhostapp.com/" target="_blank"><img src="img/project-3.jpg" alt="" class="my-img"   width="500px" height="250px"></a>
+                                  </div>
+                                  
+                                  <div class="col-md-5" style="padding-top: 3%; text-align: left;margin-left: 3%;">
+                                    <h6>Project Info:</h6>
+                                    <p>Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+                                    <h6>Project Details:</h6>
+                                    <ul class="detail my-li" style="margin-left: 3% !important;">
+                                      <li style="color: white;margin-left: -10%;">
+                                          <label>Technologies : iOS, HTML5, CSS3, PHP, Java</label>
+                                      </li>
+                      
+                                      <li style="color: white;margin-left: -10%;">
+                                          <label>Industry : Art & Design</span></label>
+                                      </li>
+                      
+                                      <li style="color: white;margin-left: -10%;">
+                                          <label>Date : July 16, 2019</label>
+                                      </li>
+                                      <h2 style="color: white; font-size: 15px; padding-top: 20px;">Share : </h2>
+                                      <span><i class="fab fa-dribbble icon" style="color: #20C997;"></i></span>
+                                      <span><i class="fab fa-twitter icon" style="color: #20C997;"></i></span>
+                                      <span><i class="fab fa-facebook-f icon" style="color: #20C997;"></i></span>
+                                      <span><i class="fab fa-google icon" style="color: #20C997;"></i></span>
+                                      <span><i class="fab fa-github icon" style="color: #20C997;"></i></span>
+                                      
+                                  </ul>
+                                  </div>
+                              </div>
+                            </div>
+                            </div>
+                          </div>
+
+                          <!-- modal 4 -->
+                          <div class="modal fade bd-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                      <div class="modal-dialog modal-xl" style=" color: white;">
+                                                        <div class="modal-content" style="color: white; background-color: #343a40!important;">
+                                                          <h4 style="padding-top: 2%">Project 4</h4>
+                                                      <div class="row">
+                                                            <div class="col-md-6" style="padding: 4%;">
+                                                              <a href= "https://stratiform-semicond.000webhostapp.com/" target="_blank"><img src="img/project-7.jpg" alt="" class="my-img"   width="550px" height="500px"></a>
+                                                            </div>
+                                                            
+                                                            <div class="col-md-5" style="padding-top: 3%; text-align: left;margin-left: 3%;">
+                                                              <h6>Project Info:</h6>
+                                                              <p>Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+                                                              <h6>Project Details:</h6>
+                                                              <ul class="detail my-li" style="margin-left: 3% !important;">
+                                                                <li style="color: white;margin-left: -10%;">
+                                                                    <label>Technologies : iOS, HTML5, CSS3, PHP, Java</label>
+                                                                </li>
+                                                
+                                                                <li style="color: white;margin-left: -10%;">
+                                                                    <label>Industry : Art & Design</span></label>
+                                                                </li>
+                                                
+                                                                <li style="color: white;margin-left: -10%;">
+                                                                    <label>Date : July 16, 2019</label>
+                                                                </li>
+                                                                <h2 style="color: white; font-size: 15px; padding-top: 20px;">Share : </h2>
+                                                                <span><i class="fab fa-dribbble icon" style="color: #20C997;"></i></span>
+                                                                <span><i class="fab fa-twitter icon" style="color: #20C997;"></i></span>
+                                                                <span><i class="fab fa-facebook-f icon" style="color: #20C997;"></i></span>
+                                                                <span><i class="fab fa-google icon" style="color: #20C997;"></i></span>
+                                                                <span><i class="fab fa-github icon" style="color: #20C997;"></i></span>
+                                                                
+                                                            </ul>
+                                                            </div>
+                                                        </div>
+                                                      </div>
+                                                      </div>
+                          </div>
+
+                          <!-- modal 5 -->
+                          <div class="modal fade bd-example-modal-lg4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl" style=" color: white;">
+                              <div class="modal-content" style="color: white; background-color: #343a40!important;">
+                                <h4 style="padding-top: 2%">Project 5</h4>
+                            <div class="row">
+                                  <div class="col-md-6" style="padding: 4%;">
+                                    <a href="https://whinier-desires.000webhostapp.com/" target="_blank"><img src="img/project-5.jpg" alt="" class="my-img"   width="550px" height="500px"></a>
+                                  </div>
+                                  
+                                  <div class="col-md-5" style="padding-top: 3%; text-align: left;margin-left: 3%;">
+                                    <h6>Project Info:</h6>
+                                    <p>Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+                                    <h6>Project Details:</h6>
+                                    <ul class="detail my-li" style="margin-left: 3% !important;">
+                                      <li style="color: white;margin-left: -10%;">
+                                          <label>Technologies : iOS, HTML5, CSS3, PHP, Java</label>
+                                      </li>
+                      
+                                      <li style="color: white;margin-left: -10%;">
+                                          <label>Industry : Art & Design</span></label>
+                                      </li>
+                      
+                                      <li style="color: white;margin-left: -10%;">
+                                          <label>Date : July 16, 2019</label>
+                                      </li>
+                                      <h2 style="color: white; font-size: 15px; padding-top: 20px;">Share : </h2>
+                                      <span><i class="fab fa-dribbble icon" style="color: #20C997;"></i></span>
+                                      <span><i class="fab fa-twitter icon" style="color: #20C997;"></i></span>
+                                      <span><i class="fab fa-facebook-f icon" style="color: #20C997;"></i></span>
+                                      <span><i class="fab fa-google icon" style="color: #20C997;"></i></span>
+                                      <span><i class="fab fa-github icon" style="color: #20C997;"></i></span>
+                                      
+                                  </ul>
+                                  </div>
+                              </div>
+                            </div>
+                            </div>
+                          </div>
+
+                          <!-- modal 6 -->
+                          <div class="modal fade bd-example-modal-lg5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl" style=" color: white;">
+                              <div class="modal-content" style="color: white; background-color: #343a40!important;">
+                                <h4 style="padding-top: 2%">Project 5</h4>
+                            <div class="row">
+                                  <div class="col-md-6" style="padding: 4%;">
+                                    <a href="https://sedentary-jaw.000webhostapp.com/" target="_blank"><img src="img/portfolio/portfolio6.webp" alt="" class="my-img"   width="550px" height="500px"></a>
+                                  </div>
+                                  
+                                  <div class="col-md-5" style="padding-top: 3%; text-align: left;margin-left: 3%;">
+                                    <h6>Project Info:</h6>
+                                    <p>Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+                                    <h6>Project Details:</h6>
+                                    <ul class="detail my-li" style="margin-left: 3% !important;">
+                                      <li style="color: white;margin-left: -10%;">
+                                          <label>Technologies : iOS, HTML5, CSS3, PHP, Java</label>
+                                      </li>
+                      
+                                      <li style="color: white;margin-left: -10%;">
+                                          <label>Industry : Art & Design</span></label>
+                                      </li>
+                      
+                                      <li style="color: white;margin-left: -10%;">
+                                          <label>Date : July 16, 2019</label>
+                                      </li>
+                                      <h2 style="color: white; font-size: 15px; padding-top: 20px;">Share : </h2>
+                                      <span><i class="fab fa-dribbble icon" style="color: #20C997;"></i></span>
+                                      <span><i class="fab fa-twitter icon" style="color: #20C997;"></i></span>
+                                      <span><i class="fab fa-facebook-f icon" style="color: #20C997;"></i></span>
+                                      <span><i class="fab fa-google icon" style="color: #20C997;"></i></span>
+                                      <span><i class="fab fa-github icon" style="color: #20C997;"></i></span>
+                                      
+                                  </ul>
+                                  </div>
+                              </div>
+                            </div>
+                            </div>
+                          </div>
+        </section>
+<!-- portfolio end -->
+
+<!-- contact start -->
         <section id="contact" class="summary_section">
             <div class="container">
                 <div class="row">
@@ -488,11 +736,13 @@
                 </div>
             </div>
         </section>
+<!-- contact end -->
 
+<!-- footer start -->
         <section id="footer">
             <h4 style="font-size: 20px;">Copyright © 2023 Humaira. All Rights Reserved.</h4>
-             </section>
-
+        </section>
+<!-- footer end -->
 
              <script>
                 AOS.init({
@@ -501,6 +751,10 @@
                   
                 });
               </script> 
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
